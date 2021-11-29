@@ -1,0 +1,240 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Duong Duong</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="assets/css/reset.css">      
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="fontello-d80c9d98/css/fontello.css">
+    <style>
+        body{
+        background-image: url(../Test1/images/bg.jpg);
+        background-size: cover;
+        font-family: 'Dancing Script', cursive;
+        }
+
+        .list { 
+            list-style-type: none; /* remove bullet points */ 
+            margin: 29px 0 0 0; 
+            font-size: 16pt;          
+            background-color: rgba(255, 255, 255, 0.2);
+            padding:0.3rem;
+            color:rgb(0, 0, 0);
+            font-weight: 200;
+        }
+
+        .list li  { 
+            display: inline; /* make items horizontal */
+        }
+
+        #header{
+            text-align: center;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+        }
+        
+        #header .avatar {
+            border-radius: 100%;
+            display: inline-block;
+            padding: 0.5rem;
+            background-color: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.25);
+            margin-bottom: 1.5rem;
+            }
+
+        #header .avatar img{
+            border-radius: 100%;
+            display: block;
+        }
+
+        #header h1{
+            font-size: 1.5rem;
+            color: rgba(255, 255, 255, 0.5);
+            font-weight: 200;
+            margin-bottom: 1.5rem;
+        }
+        #header ul.icons li{
+            display: inline-block;
+            border-radius: 100%;
+            border:1px solid rgba(255,255,255,0.25);
+            background-color: rgba(255,255,255,0.05);
+            width:3rem;
+            height:3rem;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            margin-right:1rem;
+        }
+
+        #header ul.icons li:hover{
+            border:1px solid rgba(255,255,255,0.25);
+            background-color: rgba(255,255,255,0.2);
+        }
+
+        #header ul.icons li a{
+            color:rgba(255,255,255,0.5);
+            text-decoration: none;
+        }
+
+        #header ul.icons li a:before{
+            font-size:1.5rem;
+        }
+
+        #header ul.icons li .label{
+            display: none;
+        }
+        
+        #main .thumbnails {
+            display: flex;  
+        }
+
+        #main .thumbnails>div{
+            flex-grow: 1;
+            margin-right:1rem;
+            margin-left:1rem;
+            }
+
+        #main .thumbnails a{
+            margin-bottom: 1.5rem;
+            display: block;
+        }
+
+        #main .thumbnails img{
+            width:100%;
+            border-top-left-radius: 0.2rem;
+            border-top-right-radius: 0.2rem;
+            display: block;
+        }
+        #main .thumbnails h3{
+            border-left:1px solid rgba(255,255,255,0.3);
+            border-right:1px solid rgba(255,255,255,0.3);
+            border-bottom:1px solid rgba(255,255,255,0.3);
+            border-bottom-left-radius: 0.2rem;
+            border-bottom-right-radius: 0.2rem;
+            padding:1rem;
+            text-align: center;
+            background-color: rgba(255,255,255,0.1);
+            color:white;
+            font-size:1rem;
+            font-weight: 200;
+
+        }
+
+        #footer{
+            text-align: center;
+            color:rgba(255,255,255,0.5);
+            font-weight: 200;
+            padding-bottom: 3rem;
+            font-size:0.9rem;
+        }
+
+        #footer a{
+            color:rgba(255,255,255,0.5);
+            text-decoration: none;
+            border-bottom: 1px dotted rgba(255,255,255,0.5);
+        }
+
+        #footer:before{
+            content:'';
+            display: block;
+            margin:2rem auto;
+            width:10rem;
+            border-top:1px solid rgba(255,255,255,0.2);
+            margin-bottom:3rem;
+        }
+        
+        @media(max-width:480px){
+        #main .thumbnails {
+            display: block;
+        }
+        }
+
+    </style>
+    </head>
+    <body>
+        <div id="grid">
+            <nav class="list">
+                <ol>
+                    <li><a href="http://127.0.0.1:5500/Web2/home.html">Dưn Dưn Web!</a></li>
+                    <li><a href="http://127.0.0.1:5500/Web2/Member.html"> Member</a></li>
+                    <li><a href="http://127.0.0.1:5500/Web2/Team's photo.html"> Team's photo</a></li>
+                    <li><a href="http://127.0.0.1:5500/Web2/Duong's photo.html"> Duong's photo</a></li>
+                </ol>
+            </nav>
+
+        <!-- Wrapper -->
+            <div id="wrapper">
+ 
+                <!-- Header -->
+                    <header id="header">
+                
+                        <h1>Một số hình ảnh ăn + uống không quên tạo dáng của Team. Tình hình dịch bệnh căng thẳng, 
+                            tiếc là cả Team vẫn chưa được hóng với nhau bữa nào ngoài đường cả.hị hị Mong ngày được 
+                        quẩy bên ngoài</h1>
+                        <p>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/XOJBLHZUeVM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </p>
+                                          
+                    </header>
+ 
+                <!-- Main -->
+                    <section id="main">
+ 
+                        <!-- Thumbnails -->
+                            <section class="thumbnails">
+                                <div>                                   
+                                        <img src="../Web2/image3/1.jpg" alt="" />
+                                        <h3>Hơm "gặm" xương Mười</h3>                                    
+                                    
+                                        <img src="../Web2/image3/2.jpg" alt="" />
+                                        <h3>Bữa 20 tháng mừi, được tặng nhiều đồ á</h3>
+                                    
+                                </div>
+                                <div>               
+                                        <img src="../Web2/image3/3.jpg" alt="" />
+                                        <h3>Bữa này hơm sinh nhựt chị Tươi.</h3>                                 
+                                </div>                            
+
+                            </section>
+ 
+                    </section>
+ 
+                <!-- Footer -->
+                    <footer id="footer">
+                        <p>&copy; Ảnh Dương Dương chợp. Design: Motmummim ^^.</p>
+                    </footer>
+ 
+            </div>
+ 
+        <!-- Scripts -->
+            <script src="assets/js/jquery.min.js"></script>
+            <script src="assets/js/jquery.poptrox.min.js"></script>
+            <script src="assets/js/skel.min.js"></script>
+            <script src="assets/js/main.js"></script>
+
+            <p>
+                <div id="disqus_thread"></div>
+                <script>
+                    /**
+                    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+                    /*
+                    var disqus_config = function () {
+                    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                    };
+                    */
+                    (function() { // DON'T EDIT BELOW THIS LINE
+                    var d = document, s = d.createElement('script');
+                    s.src = 'https://hihi-5.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+            </p>
+ 
+    </body>
+</html>
